@@ -6,7 +6,7 @@
 }
 
 main {
-    width: 1024px;
+	width: 1024px;
 	margin: 0 auto;
 }
 
@@ -16,7 +16,7 @@ main {
 	align-items: center;
 	justify-content: space-between;
 	font-family: "Lato-Bold", "Arial", sans-serif;
-    color: white;
+	color: white;
 	text-transform: uppercase;
 	background-color: #2D303A;
 	border-bottom: 6px solid #323746;
@@ -24,7 +24,7 @@ main {
 
 .logo {
 	margin: 29px 43px;
-    font-size: 27px;
+	font-size: 27px;
 	letter-spacing: -2px;
 }
 
@@ -50,7 +50,7 @@ nav {
 }
 
 ul,li {
-    display: inline-flex;
+	display: inline-flex;
 }
 
 a { 
@@ -77,17 +77,17 @@ a {
 }
 
 .iphone-vertical {
-    margin: 52px 72px 52px 0;
+	margin: 52px 72px 52px 0;
 }
 
 .iphone-horizontal {
-    margin-left: 1px;
+	margin-left: 1px;
 }
 
 .arrows {
-    position: absolute;
+	position: absolute;
 	top: 47%;
-    bottom: 53%;
+	bottom: 53%;
 	display: inline-flex;
 	width: 950px;
 	margin-left: 45px;
@@ -121,15 +121,15 @@ a {
 	display: inline-block;
 	margin-top: 58px;
 	padding-bottom: 19px;
-    font-size: 30px;
-    color: #666D89;
+	font-size: 30px;
+	color: #666D89;
 }
 
 .services-subtitle {
 	margin-bottom: 42px;
-    font-size: 18px;
+	font-size: 18px;
 	line-height: 30px;
-    font-family: "Lato-Light", "Arial", sans-serif;
+	font-family: "Lato-Light", "Arial", sans-serif;
 	letter-spacing: 0.1px;
 }
 
@@ -141,12 +141,12 @@ a {
 .service-image {
 	display: flex;
 	width: 55px;
-    height: 55px;
+	height: 55px;
 	margin: 5px 20px 0 2px;
 	justify-content: center;
-    align-items: center;
-    border: 2px solid #666D89;
-    border-radius: 50%;
+	align-items: center;
+	border: 2px solid #666D89;
+	border-radius: 50%;
 	pointer-events: none;
 }
 
@@ -158,8 +158,8 @@ a {
 }
 
 .service-item-title {
-    font-size: 18px;
-    color: #666D89;
+	font-size: 18px;
+	color: #666D89;
 	letter-spacing: -0.1px;
 }
 
