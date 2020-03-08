@@ -147,6 +147,10 @@ a {
 	justify-content: start;
 }
 
+.about-us-item-icons a:hover {
+	filter: brightness(150%);
+}
+
 .about-us-item-icon {
 	display: flex;
 	width: 30px;
