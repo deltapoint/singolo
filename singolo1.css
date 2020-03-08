@@ -5,7 +5,7 @@
 	padding: 0;
 }
 
-main {
+body {
 	width: 1024px;
 	margin: 0 auto;
 }
@@ -23,7 +23,7 @@ main {
 }
 
 .logo {
-	margin: 29px 43px;
+	margin: 0 0 3px 42px;
 	font-size: 27px;
 	letter-spacing: -2px;
 }
@@ -120,13 +120,13 @@ a {
 .services-title {
 	display: inline-block;
 	margin-top: 58px;
-	padding-bottom: 19px;
+	padding-bottom: 18px;
 	font-size: 30px;
 	color: #666D89;
 }
 
 .services-subtitle {
-	margin-bottom: 42px;
+	margin-bottom: 43px;
 	font-size: 18px;
 	line-height: 30px;
 	font-family: "Lato-Light", "Arial", sans-serif;
