@@ -25,8 +25,15 @@
 	<main>
 		<section class="slider">
 			<div class="slider-images">
-				<img src="./assets/images/iphone-vertical.png" class="iphone-vertical" alt="iphone-vertical">
-				<img src="./assets/images/iphone-horizontal.png" class="iphone-horizontal" alt="iphone-horizontal">
+				<div class="slide">
+					<img src="./assets/images/iphone-vertical.png" class="iphone-vertical" alt="iphone-vertical">
+					<img src="./assets/images/iphone-horizontal.png" class="iphone-horizontal" alt="iphone-horizontal">
+				</div>
+				<div class="slide">
+					<img src="./assets/images/iphone-vertical-fade.png" class="iphone-vertical-fade-right" alt="iphone-vertical">
+					<img src="./assets/images/iphone-vertical-hard.png" class="iphone-vertical-hard" alt="iphone-vertical">
+					<img src="./assets/images/iphone-vertical-fade.png" class="iphone-vertical-fade-left" alt="iphone-vertical">
+				</div>
 			</div>
 			<div class="arrows">
 				<a class="arrow left-arrow"></a>
@@ -104,7 +111,7 @@
 			</div>
 			<div class="portfolio-images">
 				<div class="portfolio-image-row">
-					<img src="./assets/images/1.png" class="image" alt="picture">
+					<img src="./assets/images/1.png" class="image active-image" alt="picture">
 					<img src="./assets/images/2.png" class="image" alt="picture">
 					<img src="./assets/images/3.png" class="image" alt="picture">
 					<img src="./assets/images/4.png" class="image" alt="picture">
@@ -179,11 +186,11 @@
 			<p class="quote-subtitle">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
 			<div class="quote-form">
 				<form class="quote-form-items" action method="POST">
-					<input class="quote-form-item" type="text" placeholder="Name (Required)" required>
-					<input class="quote-form-item" type="email" placeholder="Email (Required)" required>
-					<input class="quote-form-item" type="text" placeholder="Subject">
-					<textarea class="quote-form-item" name="textarea" id="textarea" placeholder="Describe your project in detail..."></textarea>
-					<button class="quote-form-item" id="button" type="submit">Submit</button>
+					<input class="quote-form-item name" type="text" placeholder="Name (Required)" required>
+					<input class="quote-form-item email" type="email" placeholder="Email (Required)" required>
+					<input class="quote-form-item subject" type="text" placeholder="Subject">
+					<textarea class="quote-form-item textarea" name="textarea" placeholder="Describe your project in detail..."></textarea>
+					<button class="quote-form-item button" type="submit">Submit</button>
 				</form>
 				<div class="contact-info">
 					<h3 class="contact-info-title">Contact Information</h3>
@@ -217,5 +224,6 @@
 			<a href="https://www.linkedin.com/"><img src="./assets/images/linkedin.png" class="footer-icon" alt="linkedin"></a>
 		</div>
 	</footer>
+	<script src="script.js"></script>
 </body>
 </html>
