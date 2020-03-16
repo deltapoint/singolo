@@ -24,14 +24,16 @@ for (let navItem of navItems ) {
 }
 
 iphoneVertical[0].addEventListener("click", () => {
-	iphoneVertical[0].src == "file:///C:/Users/loptop/Desktop/singolo/assets/images/iphone-vertical.png" ?
-	iphoneVertical[0].src = "./assets/images/iphone-vertical-off.png" :
+	iphoneVertical[0].src == "file:///C:/Users/loptop/Desktop/singolo/assets/images/iphone-vertical.png" || 
+	iphoneVertical[0].src == "https://github.com/deltapoint/singolo/blob/master/assets/images/iphone-vertical.png" ? 
+	iphoneVertical[0].src = "./assets/images/iphone-vertical-off.png" : 
 	iphoneVertical[0].src = "./assets/images/iphone-vertical.png";
 });
 
 iphoneHorizontal[0].addEventListener("click", () => {
-	iphoneHorizontal[0].src == "file:///C:/Users/loptop/Desktop/singolo/assets/images/iphone-horizontal.png" ?
-	iphoneHorizontal[0].src = "./assets/images/iphone-horizontal-off.png" :
+	iphoneHorizontal[0].src == "file:///C:/Users/loptop/Desktop/singolo/assets/images/iphone-horizontal.png" || 
+	iphoneHorizontal[0].src == "https://github.com/deltapoint/singolo/blob/master/assets/images/iphone-horizontal.png" ? 
+	iphoneHorizontal[0].src = "./assets/images/iphone-horizontal-off.png" : 
 	iphoneHorizontal[0].src = "./assets/images/iphone-horizontal.png";
 });
 
