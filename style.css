@@ -6,8 +6,8 @@
 }
 
 body {
-	width: 1024px;
-	margin: 0 auto;
+		max-width: 1020px;
+		margin: 0 auto;
 }
 
 .navigation {
@@ -64,7 +64,7 @@ a {
 
 .slider {
 	position: relative;
-	height: 594px;
+	max-height: 594px;
 	background-color: rgb(240, 108, 100);
 	border-bottom: 6px solid #EA676B;
 }
@@ -76,26 +76,36 @@ a {
 }
 
 .iphone-vertical {
+	width: 240px;
+	height: 483px;
 	margin: 52px 72px 52px 0;
 }
 
 .iphone-horizontal {
+	width: 484px;
+	height: 240px;
 	margin: 0 0 150px 1px;
 }
 
 .iphone-vertical-fade-right {
+	width: 255px;
+	height: 513px;
 	position: absolute;
 	left: 245px;
 	top: 152px;
 }
 
 .iphone-vertical-fade-left {
+	width: 255px;
+	height: 513px;
 	position: absolute;
 	left: 613px;
 	top: 152px;
 }
 
 .iphone-vertical-hard {
+	width: 255px;
+	height: 513px;
 	position: relative;
 	top: 43px;
 }
@@ -186,6 +196,7 @@ a {
 	font-family: "Lato-Regular", "Arial", sans-serif;
 	word-spacing: 5px;
 	hyphens: manual; 
+	text-align: justify;
 }
 
 .service-item-text {
@@ -251,14 +262,11 @@ a {
 	overflow: hidden;
 }
 
-.portfolio-image-row {
-	margin-bottom: 16px;
-}
-
 .image {
 	width: 220px;
 	height: 187px;
 	margin-right: 16px;
+	margin-bottom: 16px;
 }
 
 .active-image {
@@ -279,6 +287,7 @@ a {
 }
 
 .about-us-subtitle {
+	max-width: 965px;
 	padding: 0 15px 45px 41px;
 	font-size: 18px;
 	line-height: 30px;
@@ -294,6 +303,7 @@ a {
 }
 
 .about-us-item {
+	max-width: 300px;
 	margin-right: 20px;
 }
 
@@ -314,13 +324,14 @@ a {
 }
 
 .about-us-item-subtitle {
-	width: 300px;
+	max-width: 300px;
 	margin: 8px 0 20px;
 	font-size: 11px;
 	line-height: 21px;
 	font-family: "Lato-Regular", "Arial", sans-serif;
 	color: #767E9E;
 	letter-spacing: 0.4px;
+	text-align: justify;
 }
 
 .about-us-item-icons {
@@ -361,7 +372,7 @@ a {
 }
 
 .quote-subtitle {
-	width: 945px;
+	max-width: 945px;
 	margin: 0 0 0 41px;
 	font-size: 18px;
 	line-height: 30px;
@@ -504,4 +515,239 @@ input {
 
 .footer-icons a:hover {
 	filter: brightness(150%);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+	body {
+		margin: 0 auto;
+	}
+	.arrows {
+		top: 47%;
+		width: 711px;
+		margin-left: 40px;
+		position: absolute;
+		bottom: 53%;
+		display: inline-flex;
+		justify-content: space-between;
+	}
+	.iphone-vertical {
+		max-width: 181px;
+		max-height: 364px;
+		margin: 53px 30px 52px 25px;
+	}
+	.iphone-horizontal {
+		max-width: 364px;
+		max-height: 181px;
+		margin: 0 0 150px 1px;
+	}
+	.iphone-vertical-fade-right {
+		width: 139px;
+		height: 280px;
+		position: absolute;
+		left: 163px;
+		top: 100px;
+	}
+	.iphone-vertical-fade-left {
+		width: 139px;
+		height: 280px;
+		position: absolute;
+		left: 461px;
+		top: 100px;
+	}
+	.iphone-vertical-hard {
+		width: 194px;
+		height: 390px;
+		position: relative;
+		top: 34px;
+	}
+	.services-subtitle {
+		width: 687px;
+		height: 99px;
+		margin-bottom: 43px;
+	}
+	.services-title {
+		display: inline-block;
+		margin-top: 40px;
+		padding-bottom: 24px;
+		font-size: 30px;
+		color: #666D89;
+	}
+	.service-item-subtitle {
+		text-align: justify;
+	}
+	.slider {
+		height: 452px;
+	}
+	.services {
+		height: 677px;
+	}
+	.service-item {
+		margin: 0 40px 32px 0; 
+	}
+	.image {
+		width: 216px;
+		height: 183px;
+	}
+	.about-us {
+		height: 695px;
+	}
+	.about-us-subtitle {
+		width: 688px;
+		padding: 0 15px 45px 41px;
+		font-size: 18px;
+		line-height: 30px;
+	}
+	.about-us-item {
+		width: 219px;
+		margin-right: 20px;
+	}
+	.about-us-image {
+		width: 219px;
+		height: 219px;
+	}
+	.about-us-image img {
+		width: 219px;
+		height: 219px;
+	}
+	.about-us-item-subtitle {
+		width: 219px;
+		margin: 8px 0 20px;
+		text-align: justify;
+	}
+	.quote-subtitle {
+		width: 689px;
+		margin: 0 0 0 41px;
+		text-align: justify;   
+	}
+	.quote {
+		height: 700px;
+	}
+	.quote-form-item {
+		width: 442px;
+		margin-bottom: 16px;
+		overflow: hidden;
+	}
+	.contact-info {
+		width: 221px;
+		margin: 44px 0 0 21px;
+	}
+	.contact-info-subtitle {
+		width: 221px;
+		height: 128px;
+		text-align: justify;
+	}
+}
+@media screen and (min-width: 375px) and (max-width: 767px) {
+	body {
+		margin: 0 auto;
+	}
+	.arrows {
+		top: 40%;
+		width: 364px;
+		margin-left: 11px;
+	}
+	.iphone-vertical {
+		width: 88px;
+		height: 177px;
+		margin: 20px 18px 106px 0px;
+	}
+	.iphone-horizontal {
+		width: 177px;
+		height: 88px;
+		margin: 0 0 150px 1px;
+	}
+	.iphone-vertical-fade-right {
+		width: 58px;
+		height: 116px;
+		position: absolute;
+		left: 227px;
+		top: 62px;
+	}
+	.iphone-vertical-fade-left {
+		width: 58px;
+		height: 116px;
+		position: absolute;
+		left: 86px;
+		top: 62px;
+	}
+	.iphone-vertical-hard {
+		width: 100px;
+		height: 201px;
+		position: relative;
+		top: 11px;
+	}
+	.services-subtitle {
+		width: 314px;
+		height: 200px;
+		margin-bottom: 43px;
+	}
+	.service-item-subtitle {
+		width: 220px;
+		text-align: justify;
+	}
+	.slider {
+		height: 220px;
+	}
+	.services {
+		height: 1145px;
+	}
+	.service-item {
+		margin: 0 40px 32px 0; 
+	}
+	.image {
+		width: 151px;
+		height: 128px;
+	}
+	.about-us {
+		height: 1800px;
+	}
+	.about-us-subtitle {
+		width: 274px;
+		padding: 0 15px 5px 41px;
+	}
+	.about-us-items {
+		display: block;
+		width: 300px;
+	}
+	.about-us-item {
+		width: 300px;
+		margin-top: 35px;
+		margin-right: 20px;
+	}
+	.about-us-image {
+		width: 300px;
+		height: 300px;
+	}
+	.about-us-image img {
+		width: 300px;
+		height: 300px;
+	}
+	.about-us-item-subtitle {
+		width: 314px;
+		margin: 8px 0 9px;
+		text-align: justify;
+	}
+	.quote-subtitle {
+		width: 295px;
+		margin: 0 0 0 41px;
+	}
+	.quote {
+		height: 1080px;
+	}
+	.quote-form {
+		display: block;
+	}
+	.quote-form-item {
+		width: 290px;
+		margin-bottom: 16px;
+		overflow: hidden;
+	}
+	.contact-info {
+		width: 315px;
+		margin: 16px 0 0 41px;
+	}
+	.contact-info-subtitle {
+		width: 315px;
+		text-align: justify;
+	}
 }
